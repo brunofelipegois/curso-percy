@@ -1,0 +1,20 @@
+{
+  "name": "curso-cypress-percy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "percy exec -- cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "percy"
+  ],
+  "author": "Bruno Felipe",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/cli": "^1.25.0",
+    "@percy/cypress": "^3.1.2",
+    "cypress": "^12.13.0"
+  }
+}
